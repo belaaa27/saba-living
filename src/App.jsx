@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainLayout from "./layouts/MainLayout";
 import Home from "./pages/Home";
+import Shop from "./pages/Shop";
 import Placeholder from "./pages/Placeholder";
 
 export default function App() {
@@ -9,15 +10,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<MainLayout />}>
           <Route index element={<Home />} />
-          <Route
-            path="shop"
-            element={
-              <Placeholder
-                title="Shop Collection"
-                subtitle="The complete furniture and home décor catalog will be built in the next milestone of the 30-Website Challenge."
-              />
-            }
-          />
+          <Route path="shop" element={<Shop />} />
           <Route
             path="collections"
             element={
