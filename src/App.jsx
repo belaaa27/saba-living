@@ -3,6 +3,7 @@ import MainLayout from "./layouts/MainLayout";
 import Home from "./pages/Home";
 import Shop from "./pages/Shop";
 import Collections from "./pages/Collections";
+import OurStory from "./pages/OurStory";
 import Placeholder from "./pages/Placeholder";
 
 export default function App() {
@@ -13,15 +14,7 @@ export default function App() {
           <Route index element={<Home />} />
           <Route path="shop" element={<Shop />} />
           <Route path="collections" element={<Collections />} />
-          <Route
-            path="our-story"
-            element={
-              <Placeholder
-                title="Our Story & Philosophy"
-                subtitle="Learn about the design ethos and material selection behind Saba Living in an upcoming milestone."
-              />
-            }
-          />
+          <Route path="our-story" element={<OurStory />} />
           <Route
             path="contact"
             element={
