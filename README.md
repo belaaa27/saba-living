@@ -1,16 +1,113 @@
-# React + Vite
+# Saba Living
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern furniture and home décor website designed to bring warmth, comfort, and timeless elegance into everyday living.
 
-Currently, two official plugins are available:
+**Live Website:** [View Saba Living](YOUR_VERCEL_DEPLOYMENT_URL)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Overview
 
-## React Compiler
+Saba Living is a responsive furniture and interior design website built to showcase curated furniture collections through a clean, elegant, and user-friendly experience.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The project focuses on thoughtful layouts, natural visual elements, and a warm design system that reflects the brand's philosophy of timeless living.
 
-## Expanding the Oxlint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- **Homepage:** Brand introduction and featured furniture.
+- **Shop:** Browse a catalog of 12 furniture and home décor products.
+- **Collections:** Explore products by category, including Living Room, Bedroom, Dining, and Home Décor.
+- **Our Story:** Discover the brand's philosophy, design values, and approach to everyday living.
+- **Contact:** Contact information layout and frontend contact form interface.
+- **Responsive Design:** Layouts designed for desktop, tablet, and mobile screens.
+- **Client-side Routing:** Navigation between pages using React Router.
+
+## Tech Stack
+
+- React 19
+- Vite
+- JavaScript (ES6+)
+- Tailwind CSS v4
+- React Router v7
+- ESLint
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/belaaa27/saba-living.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd saba-living
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL displayed in your terminal.
+
+## Available Scripts
+
+| Command | Description |
+|---|---|
+| `npm run dev` | Start the development server |
+| `npm run build` | Build the production application |
+| `npm run lint` | Run ESLint checks |
+| `npm run preview` | Preview the production build |
+
+## Project Structure
+
+```text
+saba-living/
+├── public/
+├── src/
+│   ├── components/
+│   ├── data/
+│   ├── pages/
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+├── vite.config.js
+└── vercel.json
+```
+
+## Deployment
+
+The application is deployed on Vercel.
+
+The `vercel.json` configuration supports client-side routing so that application routes can be accessed directly and refreshed without returning a 404 error.
+
+## Current Scope
+
+This is a frontend-focused project. The Contact page currently provides a frontend form interface; message delivery and backend functionality are not implemented.
+
+## Author
+
+**Abel Million**
+
+- GitHub: [@belaaa27](https://github.com/belaaa27)
+- Portfolio: [View Portfolio](https://abel-portfolio-027.netlify.app/)
+
+---
+
+Built with care for modern living.
