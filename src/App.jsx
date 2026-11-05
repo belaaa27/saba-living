@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Shop from "./pages/Shop";
 import Collections from "./pages/Collections";
 import OurStory from "./pages/OurStory";
+import Contact from "./pages/Contact";
 import Placeholder from "./pages/Placeholder";
 
 export default function App() {
@@ -15,15 +16,7 @@ export default function App() {
           <Route path="shop" element={<Shop />} />
           <Route path="collections" element={<Collections />} />
           <Route path="our-story" element={<OurStory />} />
-          <Route
-            path="contact"
-            element={
-              <Placeholder
-                title="Contact & Studio Inquiries"
-                subtitle="Direct contact options and showroom appointment forms will be implemented in a subsequent milestone."
-              />
-            }
-          />
+          <Route path="contact" element={<Contact />} />
           {/* Catch-all 404 Route */}
           <Route
             path="*"
