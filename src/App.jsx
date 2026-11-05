@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainLayout from "./layouts/MainLayout";
 import Home from "./pages/Home";
 import Shop from "./pages/Shop";
+import Collections from "./pages/Collections";
 import Placeholder from "./pages/Placeholder";
 
 export default function App() {
@@ -11,15 +12,7 @@ export default function App() {
         <Route path="/" element={<MainLayout />}>
           <Route index element={<Home />} />
           <Route path="shop" element={<Shop />} />
-          <Route
-            path="collections"
-            element={
-              <Placeholder
-                title="Curated Collections"
-                subtitle="Curated interior lookbooks and room-by-room design stories are scheduled for upcoming challenge milestones."
-              />
-            }
-          />
+          <Route path="collections" element={<Collections />} />
           <Route
             path="our-story"
             element={
