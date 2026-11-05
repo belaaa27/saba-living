@@ -2,7 +2,7 @@
 
 A modern furniture and home décor website designed to bring warmth, comfort, and timeless elegance into everyday living.
 
-**Live Website:** [View Saba Living](YOUR_VERCEL_DEPLOYMENT_URL)
+**Live Website:** [View Saba Living](saba-living.vercel.app)
 
 ## Overview
 
